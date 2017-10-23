@@ -12,7 +12,19 @@ $(document).ready(function() {
     newArray.push(favorites[0]);
     newArray.push(favorites[2]);
 
-    $(".newFavorites").text("newArray");
+    // $(".newFavorites").text("newArray");
+
+    var item1 = newArray[0];
+    var item2 = newArray[1];
+
+    // $("ul#items").text("item1");
+    $("li#item1").text(item1);
+    $("li#item2").text(item2);
+    $(".hide").show();
+
+
+
+
 
     event.preventDefault();
   });
